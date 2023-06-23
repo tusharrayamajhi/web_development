@@ -10,6 +10,7 @@ h1{
 p{
     color: #fc0000;
     line-height: 30px;
+    font-weight: bold;
 }
 h3{
     color: black;
@@ -24,4 +25,8 @@ button{
 }
 textarea{
     color: rgb(167, 74, 74);
+}
+h4{
+    text-decoration: underline;
+    
 }
