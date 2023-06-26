@@ -1,0 +1,72 @@
+.main{
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.color{
+    height: inherit;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.color:hover{
+    height: inherit;
+    width: 150px;
+    transition: 0.1s;
+}
+#red{
+    background-color: rgb(255, 53, 53);
+    border-top-left-radius: inherit;
+    border-bottom-left-radius:inherit ;
+}
+#green{
+    background-color: rgb(78, 253, 78);
+}
+#blue{
+    background-color: rgb(97, 97, 250);
+}
+#orange{
+    background-color: rgb(247, 196, 138);
+    
+
+}
+#red:hover::before{
+    content: "Red";
+}
+#green:hover::before{
+    content: "Green";
+}
+#blue:hover::before{
+    content: "Blue";
+}
+#black:hover::before{
+    content: "Black";
+}
+#orange:hover::before{
+    content: "Orange";
+}
+#black{
+    background-color: rgb(40, 31, 31);
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+.box{
+    font-size: 100px;
+    height: 400px;
+    width: 400px;
+    margin: 50px 0 0 50px;
+    background-color: bisque;
+    border: 5px solid rgb(69, 67, 67);
+    border-radius: 15px;
+    transition: 1s ease;
+}
+.box:hover{
+    border-radius: 50%;
+    box-shadow: 10px 10px 100px black;
+}
