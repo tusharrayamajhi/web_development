@@ -9,26 +9,112 @@
     background: url("https://static1.squarespace.com/static/5007141bc4aa2550d7b13a5b/52cb171de4b03921032014cf/52cb171fe4b03921032014d7/1389041463172/LAROQUE-fuji-56mm-03.jpg");
     height: 100vh;
     background-size: cover;
+    overflow:hidden;
+    z-index: -3;
 }
 #check{
     position: absolute;
-    top: 100px;
+    top: -100px;
 }
 .btn_1{
-    position: relative;
+    width: 30px;
+    height: 30px;
+    position: absolute;
     left: 16px;
     top: 5px;
     color: white;
-    font-size: 30px;
-    cursor: pointer;
+    font-size: 2rem;
     font-weight: 700;
+    display:flex;
+    transition: 0.2s;
+}
+.btn_1:hover{
+    font-size: 2.5rem;
 }
 #side_bar{
     height: 100vh;
     width: 300px;
     background-color: rgba(255, 255, 255,0.2);
     box-shadow: 1px 1px 3px white;
+    position: relative;
+    left: -300px;
+    bottom: 800px;
+    color: white;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.head{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.75rem;
+    box-shadow:1px 1px 2px white;
+    
 }
 .logo{
+    padding-left: 2rem;
+}
+.btn_2{
+    padding-right: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn_2:hover{
+    font-size: 2.3rem;
+}
+#check:checked ~ #side_bar{
+   left: 0px;
+   bottom: 0px;
+}
+#check:checked~.btn_1{
+    display: none;
+}
+.menu{
+    height: 80%;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+li{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
 
+.menu>ul>li>i{
+    margin: 0 10px 0 10px;
+}
+li:hover{
+    height: 70px;
+    width: 95%;
+    padding-left: 15px;
+    box-shadow: 1px 1px white, -1px -1px 1px white;
+    background-color: rgba(160, 160, 160,0.3);
+}
+.social_media{
+    height: 500px;
+    width: 100%;
+}
+.social_media>ul{
+    display: flex;
+    justify-content: center;
+}
+.social_media>ul>a{
+    height: 25px;
+    width: 25px;
+    margin: 0 7px 0 0px;
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+    transition: 0.2s;
+}
+.social_media>ul>a:hover{
+    font-size: 25px;
+    color: white;
 }
