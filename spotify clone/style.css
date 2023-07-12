@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bacasime Antique', serif;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 8px;
+}
+#side_bar{
+    width: 25%;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.nav{
+    padding: 0.5rem 0.75rem;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+.nav_option{
+    padding: 0.25rem 0.75rem;
+    height: 3rem;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+}
+.nav i{
+    font-size: 1.20rem;
+    background-color: #121212;
+
+}
+.nav a{
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    background-color: #121212;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.library{
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    background-color: #121212;
+    border-radius: 1rem;
+    width: 90%;
+    padding: 0.25rem 0.75rem;
+    margin-top: 1rem;
+    height: 33rem;
+    
+}
+.name{
+    height: 2rem;
+    width: 90%;
+    padding: 0.2rem 1rem;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+}
+.name i{
+    font-size: 1.20rem;
+    background-color: #121212;
+   
+}
+.name a{
+    background-color: #121212;
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.sub_lib{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #121212;
+}
+.lib{
+    height: 8rem;
+    width: 89%;
+    background-color: #2f2f2f;
+    border-radius: 1rem;
+    margin:0.5rem 0 0.5rem 0;
+    font-size: 1.2rem;
+    padding: 1rem 0 1rem 1rem;
+    line-height: 20px;
+}
+.lib>h3{
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: 200;
+    
+}
+.browse{
+    height: 12rem;
+}
+button{
+    height: 2rem;
+    width: 9rem;
+    background-color: white;
+    border-radius: 25px; 
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+}
+#main_contain{
+    overflow:auto;
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+}
+.navigation{
+    height: 3rem;
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #121212;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.icon i{
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-left:10px ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.btn{
+    background-color: #000000;
+    color: white;
+}
+.profile>i{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile>i:hover{
+    transform: scale(1.03);
+}
+@media (max-width:1000px){
+.exp{
+    display: none;
+}
+}
+.album{
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+}
+.albums{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    height: 20rem;
+    width: 100%;
+    background-color: chocolate;
+}
+#music{
+    height: 72px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+}
