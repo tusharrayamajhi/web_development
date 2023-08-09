@@ -38,13 +38,13 @@ body{
 
 }
 .nav i{
-    font-size: 1.20rem;
+    font-size: 1em;
     background-color: #121212;
 
 }
 .nav a{
     padding-left: 1rem;
-    font-size: 1.25rem;
+    font-size: 1em;
     background-color: #121212;
 
 }
@@ -73,13 +73,13 @@ a{
     align-items: center;
 }
 .name i{
-    font-size: 1.20rem;
+    font-size: 1em;
     background-color: #121212;
    
 }
 .name a{
     background-color: #121212;
-    font-size: 1.25rem;
+    font-size: 1em;
     padding: 0.5rem 0.75rem;
 }
 
@@ -91,29 +91,29 @@ a{
     background-color: #121212;
 }
 .lib{
-    height: 8rem;
+    height: 8.5rem;
     width: 89%;
     background-color: #2f2f2f;
     border-radius: 1rem;
-    margin:0.5rem 0 0.5rem 0;
-    font-size: 1.2rem;
+    margin:0 0 10% 0;
+    font-size: 1em;
     padding: 1rem 0 1rem 1rem;
     line-height: 1.25rem;
 }
 .lib>h3{
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 10% 0 10% 0;
     font-weight: 200;
     
 }
 .browse{
-    height: 12rem;
+    height: 8em;
 }
 button{
     background-color: white;
 }
 #btn{
-    height: 2rem;
-    width: 9rem;
+    height: 2em;
+    width: 9em;
     border-radius: 25px; 
     border: none;
     font-weight: 600;
@@ -149,7 +149,7 @@ button{
     height: 2rem;
     width: 2rem;
     margin: 0 0.75rem 0 0.75rem;
-    font-size: 1.5rem;
+    font-size: 1em;
     background-color: #000000;
     border-radius: 50%;
     display: flex;
@@ -173,7 +173,7 @@ button{
     background-color: #000000;
     border-radius: 50%;
     border: none;
-    font-size: 1rem;
+    font-size: 1em;
     color: white;
 }
 #profile:hover{
@@ -242,7 +242,7 @@ img{
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1em;
 }
 .main_controls i{
     margin: 0 15px 0 15px;
@@ -300,4 +300,11 @@ input[type="range"] {
     height: 10px;
     border-radius: 5px;
   }
-  
+  #circle{
+    background-color: #00ff22;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+  }
