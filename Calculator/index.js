@@ -1,6 +1,10 @@
-let btn = document.querySelector('#num');
+let btn = document.querySelectorAll('.num');
 let res = document.querySelector('input');
-console.dir(btn);
+function click(){
+    let b = document.querySelector(".num").innerHTML;
+    res.value = b;
+}
+for(bt of btn){
+btn.onclick = click;
+}
 
-res.value = btn.innerHTML;
-// console.dir(document.querySelector('input'));
